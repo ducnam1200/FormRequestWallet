@@ -143,6 +143,12 @@ body {
     .formRequest {
         width: 100%;
         padding: 40px;
+        box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1), -15px -15px 20px #fffb;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     input::placeholder {
@@ -163,6 +169,12 @@ body {
     .formRequest {
         width: 100%;
         padding: 40px;
+        box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1), -15px -15px 20px #fffb;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     input::placeholder {
