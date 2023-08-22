@@ -18,7 +18,7 @@ body {
 
 .formRequest {
     position: relative;
-    width: 50%;
+    width: 60%;
     padding: 80px 50px 50px;
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1), -15px -15px 20px #fffb;
     border-radius: 20px;
@@ -133,4 +133,43 @@ body {
 
 .textNote {
     font-size: 13px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+
+    .formRequest {
+        width: 100%;
+        padding: 40px;
+    }
+
+    input::placeholder {
+        font-size: 13px;
+    }
+
+    textarea::placeholder {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    body {
+        width: 100%;
+    }
+
+    .formRequest {
+        width: 100%;
+        padding: 40px;
+    }
+
+    input::placeholder {
+        font-size: 12px;
+    }
+
+    textarea::placeholder {
+        font-size: 12px;
+    }
 }
