@@ -154,52 +154,15 @@ body {
         font-size: 13px;
     }
 
-    .formRequest form .inputBox textarea {
-        border: none;
-        outline: none;
-        background: transparent;
-        border-radius: 10px;
-        font-size: 1em;
-        width: 100%;
-        padding: 10px 15px;
-        margin-bottom: 20px;
-        margin-top: 6px;
-        padding-left: 40px;
+    .formRequest form .inputBox input[type="text"], .formRequest form .inputBox input[type="date"], .formRequest form .inputBox textarea {
         box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),
-            inset -5px -5px 10px #fff;
-    }
-
-    .formRequest form .inputBox input[type="text"] {
-        width: 100%;
-        padding: 10px 15px;
-        margin-bottom: 20px;
-        padding-left: 40px;
-        box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),
-            inset -5px -5px 10px #fff;
-    }
-
-    .formRequest form .inputBox input[type="date"] {
-        width: 100%;
-        padding: 10px 15px;
-        margin-bottom: 20px;
-        padding-left: 40px;
-        box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),
-            inset -5px -5px 10px #fff;
+        inset -5px -5px 10px #fff;
     }
 
 }
 
 
-/* @media screen and (max-width: 400px) {
-    body {
-        width: 100%;
-    }
-
-    .formRequest {
-        width: 100%;
-        padding: 40px;
-        border-radius: 20px;
-    }
+@media screen and (max-width: 400px) {
 
     input::placeholder {
         font-size: 12px;
@@ -208,14 +171,5 @@ body {
     textarea::placeholder {
         font-size: 12px;
     }
-
-    .formRequest form .inputBox input[type="text"] {
-        width: 100%;
-        padding: 10px 15px;
-        margin-bottom: 20px;
-        padding-left: 40px;
-        border-width: 0.5px;
-        border-color: black;
-    }
     
-} */
+}
